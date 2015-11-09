@@ -29,6 +29,8 @@ class LifeGame(object):
         nc_map = self.game_map.get_neighbor_count_map()
         for row in range(self.game_map.rows):
             for col in range(self.game_map.cols):
+                if self.game_map.cells[row][col] == -1:
+                    continue
                 nc = nc_map[row][col]
                 if nc < 2 or nc > 3:
                     self.game_map.set(row, col, 0)

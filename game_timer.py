@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# @author SEMOOC
+# @author lyzzzz
 
 import math
 import time

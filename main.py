@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# @author SEMOOC
+# @author lyzzzz
 
 from game_timer import GameTimer
 from life_game import LifeGame
